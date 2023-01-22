@@ -23,7 +23,7 @@ export default function Skills() {
       data-aos-anchor="#trigger-skills"
       data-aos-duration="1500"
     >
-      <h3 className="font-roboto-condensed font-bold text-2xl text-sky-500 pt-4 fi">
+      <h3 className="font-roboto-condensed font-bold text-3xl text-sky-500 pt-4 fi">
         SKILLS
       </h3>
       <h4 className="font-cabin text-l">Experienced with:</h4>

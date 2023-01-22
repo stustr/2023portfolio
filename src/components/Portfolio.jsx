@@ -9,7 +9,7 @@ export default function Portfolio() {
       data-aos-anchor="#trigger-portfolio"
       data-aos-duration="1500"
     >
-      <h3 className="font-roboto-condensed font-bold text-2xl text-sky-500 pt-4 mb-11">
+      <h3 className="font-roboto-condensed font-bold text-3xl text-sky-500 pt-4 mb-11">
         PROJECTS
       </h3>
       <div className="mt-5 flex justify-center items-center">
