@@ -19,16 +19,18 @@ export default function About() {
           className="w-1/ rounded-l-full "
         />
         <figcaption>
-          <h3 className="font-roboto-condensed font-bold text-2xl text-sky-500 pt-4 mb-5">
+          <h3 className="font-roboto-condensed font-bold text-3xl text-sky-500 pt-4 mb-5">
             ABOUT
           </h3>
           <h4 className="font-cabin text-4xl mb-5">I'm Struan</h4>
-          <p className="font-cabin mb-3">
-            After switching trades, I'm just getting started as a new developer - focusing on clean, functional and
-            reliable code. 
+          <p className="font-cabin mb-3 text-xl leading-10">
+            After switching trades, I'm just getting started as a new developer
+            - focusing on clean, functional and reliable code.
+            <br />
+            Designing/making; breaking/fixing; tinkering/solving. I can do all
+            that, and I can't wait to do it again.
+            <br />I used to build houses. Now I build digitally.
           </p>
-          <p className="mb-3">Designing/making; breaking/fixing; tinkering/solving. I can do all that, and I can't wait to do it again.</p>
-          <p className="">I used to build houses. Now I build digitally.</p>
           <div className="flex gap-4 justify-start mt-9">
             <a href="https://www.linkedin.com/in/struan-sturrock-69b285248">
               <Linkedin size={25} />
