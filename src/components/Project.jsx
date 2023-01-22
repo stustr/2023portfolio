@@ -7,6 +7,7 @@ import project1 from "../assets/img/Screenshot 2022-11-18 at 15.02.23.png";
 import project2 from "../assets/img/Screenshot 2022-12-11 at 16.54.14.png";
 import project3 from "../assets/img/quoteApp.png";
 import project4 from "../assets/img/markdownPreview.png";
+import project5 from "../assets/img/timerApp.png";
 
 export default function Project() {
   return (
@@ -87,8 +88,21 @@ export default function Project() {
               <h4 className="text-lg font-semibold mb-3">Markdown Previewer</h4>
               <ul className="list-disc text-left">
                 <li>Stateful React App</li>
+                <li>Live in browser markdown-previewer</li>
+              </ul>
+            </figcaption>
+          </figure>
+        </SwiperSlide>
+        <SwiperSlide>
+          <figure>
+            <img src={project5} alt="timer app" className="w-1/2 mx-auto" />
+            <figcaption className=" w-1/3 mx-auto text-center mt-11">
+              <h4 className="text-lg font-semibold mb-3">Markdown Previewer</h4>
+              <ul className="list-disc text-left">
+                <li>Timer App</li>
                 <li>
-                  Live in browser markdown-previewer
+                  Stateful React app allowing the user to set duration and break
+                  duration.
                 </li>
               </ul>
             </figcaption>
