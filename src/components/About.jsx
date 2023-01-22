@@ -1,5 +1,6 @@
 import React from "react";
 import { Linkedin, Github } from "@icons-pack/react-simple-icons";
+import facePic from "../assets/img/IMG_0234.jpg";
 
 export default function About() {
   return (
@@ -13,27 +14,22 @@ export default function About() {
     >
       <figure className="flex gap-5">
         <img
-          src="/src/assets/img/IMG_0234.jpg"
+          src={facePic}
           alt="Photo of Struan"
-          className="w-1/3 rounded-l-full "
+          className="w-1/ rounded-l-full "
         />
         <figcaption>
-          <h3 className="text-xl text-sky-500 pt-4">About</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
-            quaerat inventore atque earum possimus quas eligendi, laudantium
-            veritatis dolorem temporibus vel aspernatur, tempore nostrum illum
-            recusandae! Nulla corrupti reiciendis eveniet.
+          <h3 className="font-roboto-condensed font-bold text-2xl text-sky-500 pt-4 mb-5">
+            ABOUT
+          </h3>
+          <h4 className="font-cabin text-4xl mb-5">I'm Struan</h4>
+          <p className="font-cabin mb-3">
+            After switching trades, I'm just getting started as a new developer - focusing on clean, functional and
+            reliable code. 
           </p>
-          <p className="mt-4 ">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga,
-            molestiae minima cumque atque voluptatum amet magni dolorem animi
-            enim alias modi. Harum laborum unde tenetur doloremque iste enim
-            voluptatem voluptatibus, laudantium pariatur aliquam temporibus
-            explicabo facere reprehenderit soluta ipsa ullam.
-          </p>
-          <p className="mt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi repellat alias beatae harum, sunt dolore?</p>
-          <div className="flex gap-4 justify-start mt-4">
+          <p className="mb-3">Designing/making; breaking/fixing; tinkering/solving. I can do all that, and I can't wait to do it again.</p>
+          <p className="">I used to build houses. Now I build digitally.</p>
+          <div className="flex gap-4 justify-start mt-9">
             <a href="https://www.linkedin.com/in/struan-sturrock-69b285248">
               <Linkedin size={25} />
             </a>

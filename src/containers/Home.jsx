@@ -6,6 +6,7 @@ import Portfolio from "../components/Portfolio";
 import Skills from "../components/Skills";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Footer from "../components/Footer";
 
 export default function Home() {
   useEffect(() => {
@@ -18,6 +19,7 @@ export default function Home() {
       <About />
       <Skills />
       <Portfolio />
+      <Footer />
     </div>
   );
 }

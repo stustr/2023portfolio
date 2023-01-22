@@ -1,9 +1,8 @@
-import "./App.css";
 import Home from "./containers/Home";
 
 function App() {
   return (
-    <div className="bg-neutral-900 min-h-screen text-neutral-100 p-8">
+    <div className="bg-neutral-900 bg-moons bg-moonsSize min-h-screen text-neutral-100 p-8 bg-repeat">
       <Home />
     </div>
   );

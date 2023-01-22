@@ -23,7 +23,10 @@ export default function Skills() {
       data-aos-anchor="#trigger-skills"
       data-aos-duration="1500"
     >
-      <h3 className="text-xl text-sky-500 pt-4">Skills</h3>
+      <h3 className="font-roboto-condensed font-bold text-2xl text-sky-500 pt-4 fi">
+        SKILLS
+      </h3>
+      <h4 className="font-cabin text-l">Experienced with:</h4>
       <ul className="columns-2 list-none list-inside gap-9">
         <li className="flex flex-row gap-5 my-3">
           <Python size={25} />
@@ -74,12 +77,6 @@ export default function Skills() {
           Git
         </li>
       </ul>
-      <p className="mt-6 ">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
-        sapiente, impedit, ad totam doloremque recusandae expedita veritatis
-        saepe consequatur natus exercitationem obcaecati ex voluptates quam
-        repudiandae vel. Dolore, doloribus quidem.
-      </p>
     </section>
   );
 }
