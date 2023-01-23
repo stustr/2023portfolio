@@ -27,8 +27,7 @@ export default function About() {
             After switching trades, I'm just getting started as a new developer
             - focusing on clean, functional and reliable code.
             <br />
-            Designing/making; breaking/fixing; tinkering/solving. I can do all
-            that, and I can't wait to do it again.
+            Designing/making; breaking/fixing; tinkering/solving. It's what I do. 
             <br />I used to build houses. Now I build digitally.
           </p>
           <div className="flex gap-4 justify-start mt-9">

@@ -1,5 +1,6 @@
 {
   "name": "ss-vite-pf",
+  "homepage": "https://www.stustr.dev",
   "private": true,
   "version": "0.0.0",
   "type": "module",
