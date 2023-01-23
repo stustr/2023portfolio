@@ -102,7 +102,7 @@ export default function Project() {
                 <li>Timer App</li>
                 <li>
                   Stateful React app allowing the user to set duration and break
-                  duration..
+                  duration.
                 </li>
               </ul>
             </figcaption>
